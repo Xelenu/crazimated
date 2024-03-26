@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .slide {
+            animation: slideIn 1s forwards;
+            opacity: 0;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container slide">
+        <h1>About Me</h1>
+        <p>I'm passionate about creating meaningful experiences through code. One of my notable projects is a Roblox game aimed at promoting donations to people in need.</p>
+        <p>With extensive experience in coding Lua, I strive to bring creativity and innovation to every project I work on.</p>
+    </div>
+</body>
+
+</html>
